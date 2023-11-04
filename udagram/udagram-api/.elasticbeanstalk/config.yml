@@ -2,12 +2,12 @@ branch-defaults:
   default:
     environment: thanghk-udagram-api
 environment-defaults:
-  udagram-api-dev:
+    thanghk-udagram-api-dev:
     branch: null
     repository: null
 
 global:
-  application_name: udagram-api
+  application_name: thanghk-udagram-api
   default_ec2_keyname: null
   default_platform: Node.js 14 running on 64bit Amazon Linux 2
   default_region: us-east-1
