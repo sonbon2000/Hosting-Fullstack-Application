@@ -6,7 +6,14 @@ export const sequelize = new Sequelize({
   password: config.password,
   database: config.database,
   host: config.host,
-
+  port: config.port,
   dialect: "postgres",
   storage: ":memory:",
+  logging: false, //Loging disabled
+  dialectOptions: {
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
+  },
 });
