@@ -5,7 +5,8 @@ environment-defaults:
     thanghk-udagram-api:
     branch: null
     repository: null
-
+deploy:
+  artifact: ./www/Archive.zip
 global:
   application_name: thanghk-udagram-api
   default_ec2_keyname: null
