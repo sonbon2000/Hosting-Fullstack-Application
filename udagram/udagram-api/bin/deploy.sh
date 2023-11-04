@@ -1,7 +1,7 @@
 set -x
 set -e
 
-eb use thanghk-udagram-api
+eb use udagram-api
 
 eb setenv POSTGRES_HOST=$POSTGRES_HOST \
           POSTGRES_DB=$POSTGRES_DB  \
