@@ -68,9 +68,6 @@ The e2e tests are using Protractor and Jasmine.
 ## Project Link
 
 This is my url deploy:
-Frontend: http://sontsh-udagram.s3-website-us-east-1.amazonaws.com/
-Backend: http://udagram-api-dev.eba-2vmuiuqq.us-east-1.elasticbeanstalk.com/
 
-## License
-
-[License](LICENSE.txt)
+- Frontend: http://sontsh-udagram.s3-website-us-east-1.amazonaws.com/
+- Backend: http://udagram-api-dev.eba-2vmuiuqq.us-east-1.elasticbeanstalk.com/
