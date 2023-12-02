@@ -1,7 +1,7 @@
 set -x
 set -e
 
-eb use udagram-api-dev.eba-2vmuiuqq
+eb use udagram-api
 
 eb setenv POSTGRES_HOST=$POSTGRES_HOST \
           POSTGRES_DB=$POSTGRES_DB  \
